@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 231, 238);
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    /* padding: 1rem; */
+    margin: 1rem;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
